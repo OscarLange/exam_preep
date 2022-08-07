@@ -1,0 +1,1 @@
+Just start each script with python3 <script-name>
