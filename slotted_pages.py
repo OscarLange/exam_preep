@@ -303,24 +303,24 @@ elif(data_element == 2):
     solution_html += "<h4>1. The availability is: " + "".join(task_1[offset:end])  + "</h4>"
 
 if(data_element2 == 0):
-    solution_html += "<h4>2. The id is: " + "".join(task_2[12:12+aligned_struct[0]])  + "</h4>"
+    solution_html += "<h4>2. The id is: " + "".join(task_2[16:16+aligned_struct[0]])  + "</h4>"
 elif(data_element2 == 1):
-    offset = 12+aligned_struct[0]
+    offset = 16+aligned_struct[0]
     end = offset+aligned_struct[1]
     solution_html += "<h4>2. The amount of work is: " + "".join(task_2[offset:end])  + "</h4>"
 elif(data_element2 == 2):
-    offset = 12+aligned_struct[0]+aligned_struct[1]
+    offset = 16+aligned_struct[0]+aligned_struct[1]
     end = offset+aligned_struct[2]
     solution_html += "<h4>2. The availability is: " + "".join(task_2[offset:end])  + "</h4>"
 
 if(data_element3 == 0):
-    solution_html += "<h4>3. The id is: " + "".join(task_3[12:12+aligned_struct[0]])  + "</h4>"
+    solution_html += "<h4>3. The id is: " + "".join(task_3[16:16+aligned_struct[0]])  + "</h4>"
 elif(data_element3 == 1):
-    offset = 12+aligned_struct[0]
+    offset = 16+aligned_struct[0]
     end = offset+aligned_struct[1]
     solution_html += "<h4>3. The amount of work is: " + "".join(task_3[offset:end])  + "</h4>"
 elif(data_element3 == 2):
-    offset = 12+aligned_struct[0]+aligned_struct[1]
+    offset = 16+aligned_struct[0]+aligned_struct[1]
     end = offset+aligned_struct[2]
     solution_html += "<h4>3. The availability is: " + "".join(task_3[offset:end])  + "</h4>"
 
